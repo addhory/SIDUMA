@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height= "match_parent"
+    android:background="@drawable/login"
+    android:scaleType="centerCrop"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="#FF52CDC1"
+        android:drawableLeft="@mipmap/ic_launcher_username"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="@string/username"
+        android:textColor="#FFFFFFFF" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="268dp"
+        android:background="#FF52CDC1"
+        android:drawableLeft="@mipmap/ic_launcher_pass"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/password"
+        android:textColor="#FFFFFFFF" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="186dp"
+        app:cardBackgroundColor="#FDD017"
+        app:cardCornerRadius="25dp">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="login"
+            android:text="@string/log_in"
+            android:background="@android:color/transparent"
+            >
+
+
+        </Button>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

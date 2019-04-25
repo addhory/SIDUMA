@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SIDUMA</string>
+    <string name="stringlog_in">login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="forgot_password">forgot</string>
+    <string name="frequently_ask_questions">Frequently ask Questions</string>
+    <string name="faq">FAQ</string>
+    <string name="persyaratan_daftar_ulang_mahasiswa_baru">Persyaratan Daftar Ulang Mahasiswa Baru</string>
+    <string name="persyaratan">Persyaratan</string>
+    <string name="pengisian_form_daftar_ulang">Pengisian Form Daftar Ulang</string>
+    <string name="input_formulir">Input Formulir</string>
+    <string name="unduh_file_terkait_pendaftaran">Unduh File terkait Pendaftaran</string>
+    <string name="unduh_file">Unduh File</string>
+    <string name="log_in">Log In</string>
+</resources>
